@@ -26,16 +26,18 @@ namespace Programa_Comparacion_ingresos.cs
             string hsXsem2 = Console.ReadLine();
             int hXs2 = Convert.ToInt32(hsXsem2); //el valor anterior lo convierte en entero
 
-            double total1 = iXh1 * hXs1 * 52.143;
+
+            //toma los valores recibidos y hace la multiplicacion de sueldo por hora por el numero de horas por semana por el numero de semanas del ano y lo guarda en la variable total1 y total 2 respectivamente
+            double total1 = iXh1 * hXs1 * 52.143; 
             double total2 = iXh2 * hXs2 * 52.143;
 
-            Console.WriteLine("El salario anual de " + pna1 + " es = " + total1); //toma los valores recibidos y hace la multiplicacion de sueldo por hora por el numero de horas por semana por el numero de semanas del ano
+            Console.WriteLine("El salario anual de " + pna1 + " es = " + total1); //escribe el resultado de cada persona
             Console.WriteLine("El salario anual de " + pna2 + " es = " + total2);
             Console.ReadLine();
 
-            Console.WriteLine(pna1 + " gana igual o mas que " + pna2 + "?");
-            bool comp = total1 >= total2;
-            Console.WriteLine(comp.ToString());
+            Console.WriteLine(pna1 + " gana igual o mas que " + pna2 + "?"); // pregunta si pna 1 gana igual o mas que pna2
+            bool comp = total1 >= total2;  // hace la comparacion de sueldos anuales
+            Console.WriteLine(comp.ToString()); // imprime verdadero o falso
             Console.ReadLine();
 
         }
