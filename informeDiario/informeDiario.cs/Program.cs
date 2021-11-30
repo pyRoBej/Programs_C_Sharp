@@ -7,21 +7,32 @@ namespace informeDiario.cs
     {
         static void Main()
         {
-            //This a simple program
+            //Ejercicio del informe diario
+            Console.WriteLine("The Tech Academy.\" \" Informe diario del estudiante.");
             Console.WriteLine("Hola, cual es tu nombre?");
             string yourName = Console.ReadLine();
-            Console.WriteLine("your name is: " + yourName);
+            Console.WriteLine("En que curso estas?");
+            string nameCourse = Console.ReadLine();
+            Console.WriteLine("En que numero de pagina estas?");
+            string pageNumber = Console.ReadLine();
+            int pageNum = Convert.ToInt32(pageNumber);
+            Console.WriteLine("Necesitas ayuda con algo? responda verdadero o falso.");
+            string textAnswer = "True";
+            bool hasAnswerTrue = Convert.ToBoolean(textAnswer);
+            if(hasAnswerTrue )
+                {
+                Console.ReadLine();
+                // Console.WriteLine("En breve un instructor se comunicara con ud.");
+                }
+            
+
+            Console.WriteLine("Hubo alguna experiencia positiva que le gustaria compartir? si es asi, proporcione detalles.");
+            string exp = Console.ReadLine();
+            Console.WriteLine("Hay algun otro comentario que le gustaria proporcionar?");
+            string comment = Console.ReadLine();
+            Console.WriteLine("Gracias " + yourName + " por sus respuestas. \" Un instructor respondera a esto en breve.");
+            Console.WriteLine("Que tengas un gran dia!");
             Console.ReadLine();
-
-            Console.WriteLine("cual es tu numero favorito?");
-            string FavoriteNumber = Console.ReadLine();
-            int favNum = Convert.ToInt32(FavoriteNumber);
-            int total = favNum + 5;
-            Console.WriteLine("tu numero favorito mas 5 is: " + total);
-            Console.ReadLine();
-
-
-
 
         }
     }
