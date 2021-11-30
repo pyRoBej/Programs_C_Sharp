@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\bin\Debug\Programa_Comparacion_ingresos.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\bin\Debug\Programa_Comparacion_ingresos.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\bin\Debug\Programa_Comparacion_ingresos.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\obj\Debug\Programa_Comparacion_ingresos.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\obj\Debug\Programa_Comparacion_ingresos.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\obj\Debug\Programa_Comparacion_ingresos.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Programa_Comparacion_ingresos\Programa_Comparacion_ingresos.cs\obj\Debug\Programa_Comparacion_ingresos.cs.pdb
