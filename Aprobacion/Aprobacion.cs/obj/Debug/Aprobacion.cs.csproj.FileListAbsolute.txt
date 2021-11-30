@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\bin\Debug\Aprobacion.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\bin\Debug\Aprobacion.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\bin\Debug\Aprobacion.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\obj\Debug\Aprobacion.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\obj\Debug\Aprobacion.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\obj\Debug\Aprobacion.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Aprobacion\Aprobacion.cs\obj\Debug\Aprobacion.cs.pdb
