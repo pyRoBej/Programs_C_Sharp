@@ -1,7 +1,0 @@
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\bin\Debug\informeDiario.cs.exe.config
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\bin\Debug\informeDiario.cs.exe
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\bin\Debug\informeDiario.cs.pdb
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\obj\Debug\informeDiario.cs.csproj.AssemblyReference.cache
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\obj\Debug\informeDiario.cs.csproj.CoreCompileInputs.cache
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\obj\Debug\informeDiario.cs.exe
-C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\informeDiario\informeDiario.cs\obj\Debug\informeDiario.cs.pdb

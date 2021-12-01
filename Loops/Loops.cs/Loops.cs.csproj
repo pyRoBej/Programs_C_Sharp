@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F9D68AB9-0261-478A-B188-AB91286DB30C}</ProjectGuid>
+    <ProjectGuid>{1D53DCC1-23A6-459D-AF57-E3812BA95D15}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>InformeDiario.cs</RootNamespace>
-    <AssemblyName>InformeDiario.cs</AssemblyName>
+    <RootNamespace>Loops.cs</RootNamespace>
+    <AssemblyName>Loops.cs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -26,7 +26,7 @@ namespace Aprobacion.cs
             string yourStatus = Console.ReadLine();
             int status = Convert.ToInt32(yourStatus);
 
-            bool isAuthorized = (age >= 15 && !hasAnswerFalse && status <= 3);
+            bool isAuthorized = (age >= 15 && hasAnswerFalse == false && status <= 3);
           
             Console.WriteLine("Gracias " + yourName + " por sus respuestas.");
             Console.WriteLine("Ha sido aprobada su solicitud? " + isAuthorized);

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformeDiario.cs", "InformeDiario.cs\InformeDiario.cs.csproj", "{F9D68AB9-0261-478A-B188-AB91286DB30C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops.cs", "Loops.cs\Loops.cs.csproj", "{1D53DCC1-23A6-459D-AF57-E3812BA95D15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9D68AB9-0261-478A-B188-AB91286DB30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9D68AB9-0261-478A-B188-AB91286DB30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9D68AB9-0261-478A-B188-AB91286DB30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9D68AB9-0261-478A-B188-AB91286DB30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D53DCC1-23A6-459D-AF57-E3812BA95D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D53DCC1-23A6-459D-AF57-E3812BA95D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D53DCC1-23A6-459D-AF57-E3812BA95D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D53DCC1-23A6-459D-AF57-E3812BA95D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F970494D-2B35-40BD-A613-3282C9739323}
+		SolutionGuid = {97E43002-7563-4210-BDC7-211578C973E3}
 	EndGlobalSection
 EndGlobal
