@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\bin\Debug\Loops2.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\bin\Debug\Loops2.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\bin\Debug\Loops2.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\obj\Debug\Loops2.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\obj\Debug\Loops2.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\obj\Debug\Loops2.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Loops2\Loops2.cs\obj\Debug\Loops2.cs.pdb
