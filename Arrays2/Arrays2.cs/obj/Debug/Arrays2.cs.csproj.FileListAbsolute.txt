@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\bin\Debug\Arrays2.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\bin\Debug\Arrays2.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\bin\Debug\Arrays2.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\obj\Debug\Arrays2.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\obj\Debug\Arrays2.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\obj\Debug\Arrays2.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Arrays2\Arrays2.cs\obj\Debug\Arrays2.cs.pdb
