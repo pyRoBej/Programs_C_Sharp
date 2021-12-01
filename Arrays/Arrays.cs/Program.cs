@@ -37,15 +37,16 @@ namespace Arrays.cs
 
             // lista de cadenas
             //creacion y llenado de la lista
-            List<int> intList = new List<int>();
-            intList.Add(000); intList.Add(100); intList.Add(200); intList.Add(300); intList.Add(400);
-            intList.Add(500);
+            List<string> strList = new List<string>();
+            strList.Add("Manuel"); strList.Add("Cesar"); strList.Add("Fernando"); strList.Add("David"); strList.Add("Mayra");
+            strList.Add("Ubaldo");
             Console.WriteLine("Hola, seleccione un indice de la matriz entre 0 y 5");
-            int selecIndicelist = Convert.ToInt32(Console.ReadLine());
+            int selecIndice = Convert.ToInt32(Console.ReadLine());
 
             //seleccion de condicion para ingresar al intervalo ingreado correcto
-            if (selecIndicelist >= 0 && selecIndicelist <= 5) {
-                Console.WriteLine("seleccionaste: " + intList[selecIndicelist]);
+            if (selecIndice >= 0 && selecIndice <= 5)
+            {
+                Console.WriteLine("seleccionaste: " + strList[selecIndice]);
             }
             else
                 Console.WriteLine("el indice que ingreso no existe en esta matriz\n\n");
