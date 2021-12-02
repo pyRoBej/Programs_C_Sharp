@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\bin\Debug\TryCatch.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\bin\Debug\TryCatch.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\bin\Debug\TryCatch.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\obj\Debug\TryCatch.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\obj\Debug\TryCatch.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\obj\Debug\TryCatch.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\TryCatch\TryCatch.cs\obj\Debug\TryCatch.cs.pdb
