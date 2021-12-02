@@ -11,59 +11,90 @@ namespace Arrays2.cs
         static void Main(string[] args)
         {
             //Ejercicio 2 de arrays 
+            //asignacion 1
             Console.WriteLine("The Tech Academy.\n Arrays.");
 
-            var datos = new[] { "Manuel", "Bejarano", "Lopez", "36", "años" };
-            string[] array1 = new string[] { "Manuel", "Bejarano", "Lopez", "36", "años" };
-            Console.WriteLine("Hola, seleccione un indice de la matriz entre 0 y 4");
-            int indice = Convert.ToInt32(Console.ReadLine());
-            //seleccion de condicion para ingresar al intervalo ingreado correcto
-            if (indice >= 0 && indice <= 4)
-            {
-                Console.WriteLine("seleccionaste: " + datos[indice] + "\n\n");
-            }
-            else
-                Console.WriteLine("el indice que ingreso no existe en esta matriz\n\n");
+            string[] datos = { "Manuel", "Bejarano", "Lopez", "36", "años" };
 
-            //array unidimensional de numeros enteros
-            int[] numeros = new int[] { 15, 27, 19, 80, 1 };
-            Console.WriteLine("Hola, seleccione un indice de la matriz de numeros entre 0 y 4");
-            int indice2 = Convert.ToInt32(Console.ReadLine());
-            //seleccion de condicion para ingresar al intervalo ingreado correcto
-            if (indice2 >= 0 && indice2 <= 4)
-            {
-                Console.WriteLine("seleccionaste: " + numeros[indice2] + "\n\n");
-            }
-            else
-                Console.WriteLine("el indice que ingreso no existe en esta matriz\n\n");
+            Console.WriteLine("Hola! ingresa el texto que quieras");
+            string text = Console.ReadLine();
 
-            // lista de cadenas
-            //creacion y llenado de la lista
-            List<string> strList = new List<string>();
-            strList.Add("Manuel"); strList.Add("Cesar"); strList.Add("Fernando"); strList.Add("David"); strList.Add("Mayra");
-            strList.Add("Ubaldo");
-            Console.WriteLine("Hola, seleccione un indice de la matriz entre 0 y 5");
-            int selecIndice = Convert.ToInt32(Console.ReadLine());
-
-            //seleccion de condicion para ingresar al intervalo ingreado correcto
-            if (selecIndice >= 0 && selecIndice <= 5)
+            for (int i = 0; i < datos.Length; i++) //con .Length se ocupa para que el for se ejecute tantas veces se necesite mientras sea menor que la longitud del array datos
             {
-                Console.WriteLine("seleccionaste: " + strList[selecIndice]);
+                Console.Write(datos[i] + " " + text + "  ");
             }
-            else
-                Console.WriteLine("el indice que ingreso no existe en esta matriz\n\n");
+            Console.ReadLine();
+
+            foreach (string dato in datos)
+            {
+                Console.WriteLine(dato);
+            }
+            Console.ReadLine();
+
+            ////asignacion 2
+            //for (int i = 0; i <4; i++)
+            //{
+            //    Console.WriteLine(datos[i]);
+            //}
+            //Console.ReadLine();
+
+            //asignacion 3
+            Console.Clear();
+            for (int i = 0; i <4; i++) 
+            {
+                Console.WriteLine(datos[i]);
+            }
+            Console.ReadLine();
+
+            for (int i = 0; i <=4; i++) 
+            {
+                Console.WriteLine(datos[i]);
+            }
+            Console.ReadLine();
+
+            //asignacion 4
+            Console.Clear();
+            string datos2 = "Manuel Bejarano Lopez 36 años";
+            Console.WriteLine("ingresa un texto para buscar en la lista");
+            string selecText = Console.ReadLine();
+            Console.ReadLine();
+
+            Console.WriteLine("Se encontro el texto en el indice " + datos2.IndexOf(selecText));
+            Console.ReadLine();
+
+
+            //asignacion 5
+            Console.Clear();
+            //string[] datos3 = { "Manuel", "Bejarano", "Lopez", "36", "años" };
+
+            string datos3 = "Manuel Bejarano Lopez 36 años";
+            Console.WriteLine("ingresa un texto para buscar en la lista de cadenas");
+            string selecText2 = Console.ReadLine();
+            Console.ReadLine();
+            for (int i = 0; i < datos3.Length -1; i++)
+            {
+                int selecText3 = Convert.ToInt32(selecText2);
+                ////if (a > b)
+                if (datos3[i].CompareTo(datos3[selecText3]) > 0)
+                //    {
+                //    string selecText4 = Convert.ToString(selecText3);
+                //    Console.WriteLine("Se encontro el texto en el indice " + datos3.IndexOf(selecText4));
+                //    }
+                //}
+
+               
+
+                //if (datos3[i].CompareTo(datos3[selecText2]))
+                {
+                    Console.WriteLine("Se encontro el texto en el indice " + datos3.IndexOf(selecText2));
+                }
+                else
+                {
+                    Console.WriteLine("su entrada no esta en la lista");
+                }
+            }
             Console.ReadLine();
 
         }
     }
-
-    //class Arrays2_0
-    //{
-    //    public Array(String x, int y )
-    //    {
-
-    //    }
-    //    //array implicito
-    //    var datos = new[] { };
-    //}
 }
