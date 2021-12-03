@@ -122,59 +122,36 @@ namespace Arrays2.cs
             //}
             //Console.ReadLine();
 
-            ////asignacion 6
-            //Console.Clear();
-            //Console.WriteLine("6a parte");
-            //List<string> strList3 = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años", "Bejarano" }; // lista de cadenas
-            //List<string> strList4 = new List<string>() { "", "", "", "", "", "" };
-            //Console.ReadLine();
-            //int cont, contador3;
-
-            //foreach (string dato in strList3)
-            //{
-            //    cont = 0;
-            //    contador3 = 0;
-            //    Console.WriteLine("cadena " + dato);
-            //    Console.ReadLine();
-            //    strList4[0] = dato;
-            //    foreach (string datos2 in strList3)
-            //    {
-            //        if (strList4[0] == datos2)
-            //        {
-            //            Console.WriteLine("la cadena aparece en el indice: " + contador3);
-            //            cont = 1;
-            //        }
-            //        contador3++;
-            //    }
-            //    if (cont == 0)
-            //        Console.WriteLine("el texto que ingresaste no existe en esta matriz\n\n");
-            //}
-            //Console.Read();
-
-
             ////asignacion 6.2
-            Console.Clear();
             Console.WriteLine("6a parte");
             List<string> strList3 = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años", "Bejarano" }; // lista de cadenas
             List<string> strList4 = new List<string>() { "", "", "", "", "", "" };
             Console.ReadLine();
-            int cont = 0, contador3 = 0;
+            int i = 0, cont = 0, contador3 = 0;
             foreach (var dato in strList3)
             {
                 strList4[0] = dato;
                 foreach (var datos2 in strList3)
                 {
+
                     if (strList4[0] == datos2)
                     {
                         contador3++;
+
                         if (contador3 > 1)
                         {
                             Console.WriteLine("la cadena que se repite es " + datos2 + " y esta en el indice " + cont);
- }
+                        }
                     }
+
+                }
+                if (strList4[i] != dato)
+                {
+                    Console.WriteLine("la cadena " + dato + " no se ha visto en la lista");
                 }
                 contador3 = 0;
                 cont++;
+                i++;
             }
             Console.Read();
         }
