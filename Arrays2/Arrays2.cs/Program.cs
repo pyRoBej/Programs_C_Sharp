@@ -126,7 +126,7 @@ namespace Arrays2.cs
             Console.WriteLine("6a parte \n");
             List<string> strList3 = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años", "Bejarano" }; // lista de cadenas
             List<string> strList4 = new List<string>() { "", "", "", "", "", "" };
-            
+
             foreach (string datos in strList3)
             {
                 if (strList4.Contains(datos))
@@ -142,36 +142,27 @@ namespace Arrays2.cs
             Console.Read();
 
             //Console.ReadLine();
-            //int i = 0, cont = 0, contador3 = 0;
+            //int i = 0, cont = 0;
             //foreach (var dato in strList3)
             //{
-            //    strList4[0] = dato;
+            //    cont = 0;
             //    foreach (var datos2 in strList3)
             //    {
-
-            //        if (strList4[0] == datos2)
+            //        if (dato == datos2 && cont == 1)
             //        {
-            //            contador3++;
-
-            //            if (contador3 > 1)
+            //            Console.WriteLine("la cadena" + datos2 + " no aparece en la lista");
+            //            if (cont > 1)
             //            {
-            //                Console.WriteLine("la cadena que se repite es " + datos2 + " y esta en el indice " + cont);
+            //                Console.WriteLine("la cadena que se repite es " + datos2);
+
             //            }
             //        }
+            //        cont++;
 
             //    }
-            //    if (strList4[i] != dato)
-            //    {
-            //        Console.WriteLine("la cadena " + dato + " no se ha visto en la lista");
-            //    }
-            //    contador3 = 0;
-            //    cont++;
-            //    i++;
+
             //}
-            //Console.WriteLine("\n\n PARTE 6-------------------------");
-            //List<string> listcadl = new List<string>() { "cero", "one", "one", "two", "three", "one", "two", "five", "six", "cero" };
-            //List<string> listcad6par = new List<string> { "", "", "", "", "", "", "", "", "", "" };
-            ////int ind ,i = 0;
+            //Console.ReadLine();
         }
     }
 }
