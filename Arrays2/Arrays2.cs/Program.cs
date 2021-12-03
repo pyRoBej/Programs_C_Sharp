@@ -12,107 +12,144 @@ namespace Arrays2.cs
         {
             //Ejercicio 2 de arrays 
             //asignacion 1
-            //Console.WriteLine("The Tech Academy.\n Arrays.");
+            Console.WriteLine("The Tech Academy.\n Arrays.");
 
-            //string[] datos = { "Manuel", "Bejarano", "Lopez", "36", "años" };
+            string[] datos = { "Manuel", "Bejarano", "Lopez", "36", "años" };
 
-            //Console.WriteLine("Hola! ingresa el texto que quieras");
-            //string text = Console.ReadLine();
+            Console.WriteLine("1a parte \n Hola! ingresa el texto que quieras");
+            string text = Console.ReadLine();
 
-            //for (int i = 0; i < datos.Length; i++) //con .Length se ocupa para que el for se ejecute tantas veces se necesite mientras sea menor que la longitud del array datos
-            //{
-            //    Console.Write(datos[i] + " " + text + "  ");
-            //}
-            //Console.ReadLine();
-
-            //foreach (string dato in datos)
-            //{
-            //    Console.WriteLine(dato);
-            //}
-            //Console.ReadLine();
-
-            //////asignacion 2
-            ////for (int i = 0; i <4; i++)
-            ////{
-            ////    Console.WriteLine(datos[i]);
-            ////}
-            ////Console.ReadLine();
-
-            ////asignacion 3
-            //Console.Clear();
-            //for (int i = 0; i <4; i++) 
-            //{
-            //    Console.WriteLine(datos[i]);
-            //}
-            //Console.ReadLine();
-
-            //for (int i = 0; i <=4; i++) 
-            //{
-            //    Console.WriteLine(datos[i]);
-            //}
-            //Console.ReadLine();
-
-            //asignacion 4
-            Console.Clear();
-            var datos2 = new[] { "Manuel", "Bejarano", "Lopez", "36", "años" }; //array implicito
-            Console.WriteLine("ingresa un texto para buscar en la lista");
-            string selecText = Console.ReadLine();
-            Console.ReadLine();
-            for (int i = 0; i < datos2.Length; i++)
+            for (int i = 0; i < datos.Length; i++) //con .Length se ocupa para que el for se ejecute tantas veces se necesite mientras sea menor que la longitud del array datos
             {
-                if (datos2[i] == selecText)
-                    Console.WriteLine("Se encontro el texto en el indice " + datos2[i]);
+                Console.Write(datos[i] + " " + text + "  ");
             }
             Console.ReadLine();
 
-            //asignacion 4.2
+            foreach (string dato in datos)
+            {
+                Console.WriteLine(dato);
+            }
+            Console.ReadLine();
+
+            ////asignacion 2
+            //for (int i = 0; i <4; i++)
+            //{
+            //    Console.WriteLine(datos[i]);
+            //}
+            //Console.ReadLine();
+
+            //asignacion 3
+            Console.Clear();
+            Console.WriteLine("3a parte");
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine(datos[i]);
+            }
+            Console.ReadLine();
+
+            for (int i = 0; i <= 4; i++)
+            {
+                Console.WriteLine(datos[i]);
+            }
+            Console.ReadLine();
+
+            ////asignacion 4
             //Console.Clear();
             //var datos2 = new[] { "Manuel", "Bejarano", "Lopez", "36", "años" }; //array implicito
-            //List<string> strList = new List<string>();
             //Console.WriteLine("ingresa un texto para buscar en la lista");
             //string selecText = Console.ReadLine();
             //Console.ReadLine();
-            //foreach (string dato in datos2)
+            //for (int i = 0; i < datos2.Length; i++)
             //{
-            //    if (selecText = datos2[])
+            //    if (datos2[i] == selecText)
             //    {
-            //        Console.WriteLine("el texto que ingresaste esta en el indice: " + datos2[] + "\n\n");
+            //        Console.WriteLine("Se encontro el texto en el indice " + datos2[i]);
             //    }
             //    else
             //        Console.WriteLine("el texto que ingresaste no existe en esta matriz\n\n");
+            //    Console.ReadLine();
+            //    Environment.Exit(0);
             //}
             //Console.ReadLine();
 
+            //asignacion 4.2
+            Console.Clear();
+            Console.WriteLine("4a parte"); 
+            List<string> strList = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años" }; // lista de cadenas
+            Console.WriteLine("ingresa un texto para buscar en la lista");
+            string selecText = Console.ReadLine(); //almacena el texto ingresado del usuario en la variable selecText
+            Console.ReadLine();
+            int contador = 0;
+            for (int i = 0; i < strList.Count; i++) //. count es igual que length pero para for y no foreach
+            {
+                if (selecText == strList[i])
+                {
+                    contador = 1;
+                    Console.WriteLine("Se encontro el texto en el indice " + i);
+                }
+            }
+            if (contador == 0)
+            {
+                Console.WriteLine("el texto que ingresaste no existe en esta matriz\n\n");
+                Console.ReadLine();
+                //Environment.Exit(0);
+            }
+            Console.ReadLine();
 
-            ////asignacion 5
-            //Console.Clear();
-            ////string[] datos3 = { "Manuel", "Bejarano", "Lopez", "36", "años" };
 
-            //string datos3 = "Manuel Bejarano Lopez 36 años";
-            //Console.WriteLine("ingresa un texto para buscar en la lista de cadenas");
-            //string selecText2 = Console.ReadLine();
-            //Console.ReadLine();
-            //for (int i = 0; i < datos3.Length -1; i++)
-            //{
-            //    int selecText3 = Convert.ToInt32(selecText2);
-            //    ////if (a > b)
-            //    if (datos3[i].CompareTo(datos3[selecText3]) > 0)
-            //    //    {
-            //    //    string selecText4 = Convert.ToString(selecText3);
-            //    //    Console.WriteLine("Se encontro el texto en el indice " + datos3.IndexOf(selecText4));
-            //    //    }
-            //    //}
-            //    //if (datos3[i].CompareTo(datos3[selecText2]))
-            //    {
-            //        Console.WriteLine("Se encontro el texto en el indice " + datos3.IndexOf(selecText2));
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("su entrada no esta en la lista");
-            //    }
-            //}
-            //Console.ReadLine();
+            //asignacion 5
+            Console.Clear();
+            Console.WriteLine("5a parte"); 
+            List<string> strList2 = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años", "Bejarano" }; // lista de cadenas
+            Console.WriteLine("ingresa un texto para buscar en la lista de cadenas");
+            string selecText2 = Console.ReadLine();
+            Console.ReadLine();
+            int contador2 = 0;
+            for (int i = 0; i < strList2.Count - 1; i++)
+            {
+                if (strList2[i] == selecText2)
+                {
+                    contador2 = 1;
+                    Console.WriteLine("Se encontro el texto en el indice " + i);
+                    Console.ReadLine();
+                }
+            }
+            if (contador2 == 0)
+            {
+                Console.WriteLine("el texto que ingresaste no existe en esta matriz\n\n");
+                Console.ReadLine();
+                //Environment.Exit(0);
+            }
+            Console.ReadLine();
 
+            //asignacion 6
+            Console.Clear();
+            Console.WriteLine("6a parte");
+            List<string> strList3 = new List<string>() { "Manuel", "Bejarano", "Lopez", "36", "años", "Bejarano" }; // lista de cadenas
+            List<string> strList4 = new List<string>() { "", "", "", "", "", "" };
+            Console.ReadLine();
+            int cont, contador3;
+
+            foreach (string dato in strList3)
+            {
+                cont = 0;
+                contador3 = 0;
+                Console.WriteLine("cadena " + dato);
+                Console.ReadLine();
+                strList4[0] = dato;
+                foreach (string datos2 in strList3)
+                {
+                    if (strList4[0] == datos2)
+                    {
+                        Console.WriteLine("la cadena aparece en el indice: " + contador3);
+                        cont = 1;
+                    }
+                    contador3++;
+                }
+                if (cont == 0)
+                    Console.WriteLine("el texto que ingresaste no existe en esta matriz\n\n");
+            }
+            Console.Read();
         }
-    }
+     }
 }
