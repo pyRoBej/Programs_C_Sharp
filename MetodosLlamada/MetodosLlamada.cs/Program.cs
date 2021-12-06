@@ -42,15 +42,15 @@ namespace MetodosLlamada.cs
             Console.WriteLine("Hola, a continuacion haremos una multiplicación, proporcione el primer número");
             int num1 = Convert.ToInt32(Console.ReadLine()); //lee el valor
             Console.WriteLine("\n ... ahora puede proporcionar el segundo número o si lo desea NO HACERLO, de igual forma ya esta proporcionado un valor para el segundo número");
-            if (Console.ReadLine() != null)
+            string num = Console.ReadLine();
+            if (!String.IsNullOrEmpty(num))
             {
-                int num3 = Convert.ToInt32(Console.ReadLine()); //lee el valor
-                Console.WriteLine("El resultado de la multiplicación es: " + ops.multp(num1, num3) + "\n");
-            } 
-            else if (Console.ReadLine() == null)
-            {
-                int num2 = 10;
+                int num2 = Convert.ToInt32(num);
                 Console.WriteLine("El resultado de la multiplicación es: " + ops.multp(num1, num2) + "\n");
+            }
+            else
+            {
+                Console.WriteLine("El resultado de la multiplicación es: " + ops.multp(num1) + "\n");
             }
             Console.ReadLine();
 

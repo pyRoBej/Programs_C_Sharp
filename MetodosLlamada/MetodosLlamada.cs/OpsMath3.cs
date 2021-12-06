@@ -8,7 +8,7 @@ namespace MetodosLlamada.cs
 {
     class OpsMath3
     {
-        public int multp(int number, int number2)    //el cambiar void por int significa que me va a regresar un valor, si dejo void le estaria diciendo
+        public int multp(int number, int number2=10)    //el cambiar void por int significa que me va a regresar un valor, si dejo void le estaria diciendo
                                     //que no devuelve nada, ademas para que no marque error debo cumplir este retorno, por eso
                                     //dentro del metodo se pone el return result
         {
