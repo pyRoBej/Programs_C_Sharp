@@ -26,7 +26,9 @@ namespace ProyectoHerencia.cs
 
             // veremos como se aplica el ppio de sustitucion 
 
-            Mamiferos animal = new Caballo("Spirit"); //la sintaxis del principio es: contestando la pregunta.- un mamifero es 
+            Mamiferos animal = new Caballo("Spirit"); //la sintaxis del principio es: contestando la pregunta.- un mamifero no siempre es un caballo, al reves si
+
+            Caballo Spirit = new Caballo("Spitit");  //este es otra forma de aplicar el principio de sustitucion
 
 
             Console.ReadLine();
