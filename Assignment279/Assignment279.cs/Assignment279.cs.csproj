@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6DC08AB-77DD-46B0-8302-1A671B369078}</ProjectGuid>
+    <ProjectGuid>{DF8E75F2-C057-48A5-8B50-EB781B7AC676}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MetodosLlamada.cs</RootNamespace>
-    <AssemblyName>MetodosLlamada.cs</AssemblyName>
+    <RootNamespace>Assignment279.cs</RootNamespace>
+    <AssemblyName>Assignment279.cs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OpsMath.cs" />
     <Compile Include="OpsMath2.cs" />
-    <Compile Include="OpsMath3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
