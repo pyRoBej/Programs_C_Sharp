@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\bin\Debug\MetodosLlamada.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\bin\Debug\MetodosLlamada.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\bin\Debug\MetodosLlamada.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\obj\Debug\MetodosLlamada.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\obj\Debug\MetodosLlamada.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\obj\Debug\MetodosLlamada.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\MetodosLlamada\MetodosLlamada.cs\obj\Debug\MetodosLlamada.cs.pdb
