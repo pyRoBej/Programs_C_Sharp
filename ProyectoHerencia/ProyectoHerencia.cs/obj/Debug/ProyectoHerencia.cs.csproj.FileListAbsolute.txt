@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\bin\Debug\ProyectoHerencia.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\bin\Debug\ProyectoHerencia.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\bin\Debug\ProyectoHerencia.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\obj\Debug\ProyectoHerencia.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\obj\Debug\ProyectoHerencia.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\obj\Debug\ProyectoHerencia.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\ProyectoHerencia\ProyectoHerencia.cs\obj\Debug\ProyectoHerencia.cs.pdb
