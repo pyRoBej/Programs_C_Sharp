@@ -14,21 +14,18 @@ namespace Assignment279.cs
         {
             int result = num + 10;
             return result;
-            //Console.WriteLine("tu numero mas 10 es: " + result);
         }
 
-        public int resta(decimal num)
+        public int suma(decimal num)
         {
             int result = Convert.ToInt32(num) - 2;
             return result;
-            //Console.WriteLine("tu numero menos 2 es: " + result);
         }
 
-        public int multp(string num)
+        public int suma(string num)
         {
             int result = Convert.ToInt32(num) * 10;
             return result;
-            //Console.WriteLine("tu numero multiplicado por 10 es: " + result);
         }
     }
 }
