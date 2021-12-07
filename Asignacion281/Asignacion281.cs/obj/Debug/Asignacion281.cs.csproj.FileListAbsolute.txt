@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\bin\Debug\Asignacion281.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\bin\Debug\Asignacion281.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\bin\Debug\Asignacion281.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\obj\Debug\Asignacion281.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\obj\Debug\Asignacion281.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\obj\Debug\Asignacion281.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion281\Asignacion281.cs\obj\Debug\Asignacion281.cs.pdb
