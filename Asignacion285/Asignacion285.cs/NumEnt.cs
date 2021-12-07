@@ -10,21 +10,34 @@ namespace Asignacion285.cs
     {
         public void genNum(int numEnt)
         {
-            //Random rnd = new Random();
-            //int numEnt = rnd.Next(1, 101);
+
             int div = numEnt / 2;
             //Console.WriteLine(numEnt);
             Console.ReadLine();
             Console.WriteLine("El numero entero dividido entre dos es igual = " + div);
             Console.ReadKey();
+
         }
 
-        public uint genNum(uint num)
+        public static void Rndm(int numEnt)
         {
-            uint div = num / 2;
-            return div;
+            Random rnd = new Random();
+            numEnt = rnd.Next(1, 101);
+            Console.WriteLine(numEnt);
+            Console.ReadKey();
+
+        }
+
+
+        public int Rndm(double num)
+        {
+            int div = Convert.ToInt32(num) / 2;
             Console.WriteLine(div);
             Console.ReadKey();
+
+            return div;
         }
+
+        
     }
 }

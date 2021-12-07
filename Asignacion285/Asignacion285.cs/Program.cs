@@ -19,6 +19,10 @@ namespace Asignacion285.cs
 
             num.genNum(num1);               // aqui estoy haciendo llamar al metodo genNum que esta en la clase NumEnt
 
+            //num.Rndm(num1);
+
+            //double num2 = Convert.ToDouble(num);
+            //num.Rndm(Convert.ToDouble(num));
             Console.ReadKey();
         }
     }
