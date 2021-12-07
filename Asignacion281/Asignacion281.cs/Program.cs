@@ -20,7 +20,8 @@ namespace Asignacion281.cs
             Ops ops = new Ops();
 
             //Console.WriteLine("El resultado de la multiplicación es: "  ops.multp(num1, num2) "\n");
-            Console.WriteLine(ops.multp(num1, num2);
+            ops.multp(num1 = num1, num2 = num2);
+            //Console.WriteLine(ops.multp(num1, num2);
             Console.ReadLine();
 
         }
