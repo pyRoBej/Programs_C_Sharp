@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace Asignacion292.cs
 {
-    class Persona
-    {
-        public Persona()
+    public class Persona 
         {
-
+        public Persona(string firstName, string lastName)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
         }
+        public List<string> Empleados { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
 
         public void sayName()
-        {
+            {
+                Console.WriteLine(Empleados);
+            }
+         }
 
-        }
-
-        public void empleado(int id)
-        {
-
-        }
-
-    }
+        
 }
