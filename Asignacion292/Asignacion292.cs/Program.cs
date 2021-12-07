@@ -10,6 +10,7 @@ namespace Asignacion292.cs
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

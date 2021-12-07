@@ -8,5 +8,20 @@ namespace Asignacion292.cs
 {
     class Persona
     {
+        public Persona()
+        {
+
+        }
+
+        public void sayName()
+        {
+
+        }
+
+        public void empleado(int id)
+        {
+
+        }
+
     }
 }
