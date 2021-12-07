@@ -10,7 +10,7 @@ namespace Asignacion285.cs
     {
         static void Main(string[] args)
         {
-            //Ejercicio Metodos de llamada
+            //Ejercicio Metodos de llamada asig 285
 
             Console.WriteLine("Hola, a continuacion haremos una división, proporcione el número al que vamos a dividir entre 2");
             int num1 = Convert.ToInt32(Console.ReadLine()); //lee el valor
@@ -19,11 +19,14 @@ namespace Asignacion285.cs
 
             num.genNum(num1);               // aqui estoy haciendo llamar al metodo genNum que esta en la clase NumEnt
 
-            //num.Rndm(num1);
+            int num2;
+            num.Rndm(num1, out num2);
+            Console.WriteLine(num2);
 
-            //double num2 = Convert.ToDouble(num);
-            //num.Rndm(Convert.ToDouble(num));
-            Console.ReadKey();
+            X.ejemplo(); //cuando una clase es estatica no se puede instanciar, solo se manda llamar,
+                         //para hacerlo se pone el nombre de la clase estatica "." (punto) y
+                         //el metodo al que queremos llamar
+            
         }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Asignacion285.cs
 {
-    class NumEnt
+     class NumEnt
     {
-        public void genNum(int numEnt)
+        public  void genNum(int numEnt)
         {
 
             int div = numEnt / 2;
@@ -19,7 +19,16 @@ namespace Asignacion285.cs
 
         }
 
-        public static void Rndm(int numEnt)
+        
+        public  void Rndm(int num, out int div)
+        {
+            div = num / 2;
+            Console.WriteLine(div);
+            Console.ReadKey();
+
+        }
+
+        public  void Rndm(int numEnt)
         {
             Random rnd = new Random();
             numEnt = rnd.Next(1, 101);
@@ -29,15 +38,6 @@ namespace Asignacion285.cs
         }
 
 
-        public int Rndm(double num)
-        {
-            int div = Convert.ToInt32(num) / 2;
-            Console.WriteLine(div);
-            Console.ReadKey();
 
-            return div;
-        }
-
-        
     }
 }
