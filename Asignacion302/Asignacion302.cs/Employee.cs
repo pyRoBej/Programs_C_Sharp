@@ -16,9 +16,10 @@ namespace Asignacion302.cs
 
         public void Quit()   //para poder heredar esto, es porque no es una clase propiamente, es mas bien una interfaz
         {
-            throw new ArgumentException();
+            //throw new ArgumentException();
+            Console.WriteLine($"Use polymorphism");
         }
-        
+
     }
     
 }
