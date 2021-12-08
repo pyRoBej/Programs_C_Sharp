@@ -10,14 +10,15 @@ namespace Asignacion302.cs
     {
         public int ID { get; set; }
 
-        Person.
+        public string firstName { get; set; }
+        public string lastName { get; set; }
 
 
-        
-        
+        public void sayName()
+        {
+            Console.WriteLine($"Nombre es: [ {firstName} {lastName}]");
+        }
+
     }
-    public void sayName()
-    {
-        Console.WriteLine($"Nombre es: [ {FirstName} {LastName}]");
-    }
+    
 }
