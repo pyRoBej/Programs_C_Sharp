@@ -8,7 +8,7 @@ namespace TwentyOne.cs
 {
     interface IWalkAway   //una interfaz es similar a una clase abstracta
     {
-        void WalkAway(Players player);
+        void WalkAway(Player player);
 
     }
 }

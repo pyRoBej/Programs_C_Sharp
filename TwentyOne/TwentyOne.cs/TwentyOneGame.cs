@@ -20,7 +20,7 @@ namespace TwentyOne.cs
             base.ListPlayer();
         }
 
-        public void WalkAway(Players player)   //para poder heredar esto, es porque no es una clase propiamente, es mas bien una interfaz
+        public void WalkAway(Player player)   //para poder heredar esto, es porque no es una clase propiamente, es mas bien una interfaz
         {
             throw new NotImplementedException();
         }
