@@ -15,7 +15,7 @@ namespace Asignacion302.cs
 
             empleado.firstName = "Sample";
             empleado.lastName = "Student";
-            empleado.sayName();             //estoy mandando llamar el metodo dentro de la clase persona que me imprime un nombre completo con los valores que meti anteriormente a firstName y lastName
+            empleado.sayName();             //estoy mandando llamar el metodo dentro de la clase employee que me imprime un nombre completo con los valores que meti anteriormente a firstName y lastName
 
             Console.ReadKey();
 
