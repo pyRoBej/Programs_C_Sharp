@@ -8,10 +8,6 @@ namespace Asignacion302.cs
 {
     public abstract class Person
     {
-        //public Person(string firstName, string lastName)  //este es el constructor que tiene como parametros dos strings (FirsteName y LastName)
-        //{
-        //}
-
         public string firstName { get; set; }
         public string lastName { get; set; }
 
@@ -21,27 +17,11 @@ namespace Asignacion302.cs
 }
 
 
-//this.firstName = firstName;
-    //this.lastName = lastName;
-    //public string getFirstName()
-    //{
-    //    return FirstName;
-    //}
+//otra forma de get y set a las propiedades
+//public int Salario
+//{
+//    get => this.salario;
+//    set => this.salario = evaluaSalario(value);
+//}
 
-    //public void setFirstName(string firstName)
-    //{
-    //    Console.WriteLine("Nombre: ");
-    //}
-
-    //public string getLastName()
-    //{
-    //    return LastName;
-    //}
-
-    //public void setLastName(string lastName)
-    //{
-    //    Console.WriteLine("Apellido: ");
-    //}
-
-    //private string firstName;
-    //private string lastName;
+//private int salario;
