@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace Asignacion302.cs
 {
-    public class Employee : Person
+    public class Employee : Person, IQuitTable 
     {
         
         public override void sayName()
         {
             Console.WriteLine($"Nombre es: [ {firstName} {lastName}]");
+        }
+
+        public void Quit()   //para poder heredar esto, es porque no es una clase propiamente, es mas bien una interfaz
+        {
+            throw new NotImplementedException();
         }
 
     }
