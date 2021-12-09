@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\bin\Debug\Asignacion 313.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\bin\Debug\Asignacion 313.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\bin\Debug\Asignacion 313.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\obj\Debug\Asignacion 313.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\obj\Debug\Asignacion 313.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\obj\Debug\Asignacion 313.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion 313\Asignacion 313.cs\obj\Debug\Asignacion 313.cs.pdb
