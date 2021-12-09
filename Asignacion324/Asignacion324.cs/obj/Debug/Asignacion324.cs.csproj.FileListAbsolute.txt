@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\bin\Debug\Asignacion324.cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\bin\Debug\Asignacion324.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\bin\Debug\Asignacion324.cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\obj\Debug\Asignacion324.cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\obj\Debug\Asignacion324.cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\obj\Debug\Asignacion324.cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion324\Asignacion324.cs\obj\Debug\Asignacion324.cs.pdb
