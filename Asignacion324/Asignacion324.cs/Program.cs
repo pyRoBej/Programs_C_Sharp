@@ -13,10 +13,6 @@ namespace Asignacion324.cs
         static void Main(string[] args)
         {
             //Asignacion 324
-
-                
-
-                
             try
             {
                 Console.WriteLine("Hola, ingrese el dia actual de la semana (del 1 al 7)");
@@ -45,7 +41,7 @@ namespace Asignacion324.cs
             }
             finally
             {
-                Console.WriteLine("Ha salido del try/catch");
+                //Console.WriteLine("Ha salido del try/catch");
                 Console.ReadLine();
             }
 
