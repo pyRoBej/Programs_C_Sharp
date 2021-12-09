@@ -6,44 +6,38 @@ using System.Threading.Tasks;
 
 namespace Asignacion324.cs
 {
-    enum Dias {Lunes=1, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo };  //asi se declaran los enum
+    
     
     class Program
     {
-        static void Main(string[] args)
+        enum Dias { Lunes=1, Martes=2, Miercoles=3, Jueves=4, Viernes=5, Sabado=6, Domingo=7 };  //asi se declaran los enum
+
+        static void Main()
         {
             //Asignacion 324
+            Dias dia;
+            Console.WriteLine("Hola, ingrese el dia actual de la semana");
+            string value = Console.ReadLine();
+
             try
             {
-                Console.WriteLine("Hola, ingrese el dia actual de la semana (del 1 al 7)");
-                int resp = Convert.ToInt32(Console.ReadLine());
-                Dias dia = (Dias)resp;
+                dia = (Dias)Enum.Parse(typeof(Dias), value);
 
-                if (resp > 0 && resp <= 7)
-                {
-                    Console.WriteLine("Hoy es: " + dia);
-                }
-                else
-                {
-                    Console.WriteLine("Por favor ingrese un dia real de la semana.");
-                    Console.ReadKey();
-                }
-            }
-            catch (FormatException ex)
-            {
-                Console.WriteLine("Por favor ingrese un numero entero.");
-                return;
+                Console.WriteLine("Hoy es: " + dia);
+
             }
             catch (Exception ex)
             {
+                Console.WriteLine("Por favor ingrese un dia real de la semana.");
                 Console.WriteLine(ex.Message);
                 return;
             }
             finally
             {
-                //Console.WriteLine("Ha salido del try/catch");
+                Console.WriteLine("Ha salido");
                 Console.ReadLine();
             }
+
 
 
             //DiasDeLaSemana laborales = DiasDeLaSemana.Lunes;    //si quisiera representar un valor nulo de los enum la sintaxis seria
