@@ -10,22 +10,17 @@ namespace Asignacion_313.cs
     {
         private static void Main(string[] args)
         {
-            //Empleado empleado = new Empleado(1, "Manuel", "Bejarano");
-            //Empleado emp2 = new Empleado(2, "Manuel", "Bejarano");
-
-            ////empleado.nombreCompleto(1, "Manuel", "Bejarano");
-            //empleado.idEmpleado(1);
-            //emp2.idEmpleado(2);
-
-            //Console.WriteLine(empleado);
-            //Console.WriteLine(emp2);
             var emp1 = new Empleado(1, "Manuel", "Bejarano");
             var emp2 = new Empleado(2, "David", "Cortes");
 
-            if (emp1 == emp2)
-                Console.WriteLine("Los empleados tienen el mismo ID");
-            else
-                Console.WriteLine("Los empleados tienen diferente ID");
+            //if (emp1 == emp2)
+            //    Console.WriteLine("Los empleados tienen el mismo ID");
+            //else
+            //    Console.WriteLine("Los empleados tienen diferente ID");
+
+            //la siguiente forma es otra version del if anterior, de esta forma queda mucho mas limpio el codigo
+            var result = emp1 == emp2 ? "Los empleados tienen el mismo ID" : "Los empleados tienen diferente ID";
+            Console.WriteLine(result);
 
             Console.ReadKey();
 
@@ -45,17 +40,6 @@ namespace Asignacion_313.cs
             private string nombre { get; set; }
             private string apellido { get; set; }
 
-
-            //public void nombreCompleto (int ID, string name, string lastName)
-            //{
-            //    ID = id; nombre = name; apellido = lastName;
-            //}
-
-            //public void idEmpleado (int Id)
-            //{
-            //    Id = id;
-            //    Id++;
-            //}
 
             public static bool operator ==(Empleado empl, Empleado emp2) => empl.id == emp2.id;
             
