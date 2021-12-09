@@ -14,25 +14,39 @@ namespace Asignacion324.cs
         {
             //Asignacion 324
 
+                
+
+                
             try
             {
                 Console.WriteLine("Hola, ingrese el dia actual de la semana (del 1 al 7)");
-                int dia = Convert.ToInt32(Console.ReadLine());
+                int resp = Convert.ToInt32(Console.ReadLine());
+                Dias dia = (Dias)resp;
 
-                //Dias lun = (Dias)1;
-                
-                //for (int i =1; i< Dias)
-                //{
-                //    string result = 
-                //}
-                
-                //Console.WriteLine("Hoy es: " + lun);
-                Console.ReadKey();
-
+                if (resp > 0 && resp <= 7)
+                {
+                    Console.WriteLine("Hoy es: " + dia);
+                }
+                else
+                {
+                    Console.WriteLine("Por favor ingrese un dia real de la semana.");
+                    Console.ReadKey();
+                }
             }
             catch (FormatException ex)
             {
-
+                Console.WriteLine("Por favor ingrese un numero entero.");
+                return;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return;
+            }
+            finally
+            {
+                Console.WriteLine("Ha salido del try/catch");
+                Console.ReadLine();
             }
 
 
