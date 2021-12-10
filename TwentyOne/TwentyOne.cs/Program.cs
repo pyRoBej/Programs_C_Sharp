@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne.cs
 {
-    class Program
+    class Program  //la diferencia de una clase con una libreria es que la libreria es una coleccion de clases
     {
         static void Main(string[] args)
         {

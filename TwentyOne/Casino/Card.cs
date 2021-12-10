@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne.cs
+namespace Casino
 {
     public class Card // para crear esta clase me fui al explorador de soluciones (en la barra del lado derecho oculto),
                       // se abre se selecciona agregar/clase, y la de tipo C# (hasta arriba) es la que seleccione,

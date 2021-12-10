@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne.cs
+namespace Casino
 {
     public class TwentyOneGame : Game, IWalkAway   //para heredar simplemente hay que poner ":" (dos puntos) y la clase de la que heredara;
                                                    //la segunda que se hereda no es una clase, es una interfaz, es por eso que es posible heredarla
