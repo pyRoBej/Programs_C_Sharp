@@ -14,10 +14,9 @@ namespace Asignacion337.cs
         public static void Main()
         {
 
-            //Empleados empleado = new Empleados();
+            List<Empleados> empleados = new List<Empleados>();  // creacion de la lista empleados
 
-            List<Empleados> empleados = new List<Empleados>();
-
+            // se agregan datos a la lista recien creada.
             empleados.Add(new Empleados() {EmplId=1, EmplName="Manuel", EmplLastName="Bejarano" });
             empleados.Add(new Empleados() { EmplId = 2, EmplName = "Engels", EmplLastName = "Reyes" });
             empleados.Add(new Empleados() { EmplId = 3, EmplName = "Joe", EmplLastName = "Bidden" });
@@ -29,6 +28,7 @@ namespace Asignacion337.cs
             empleados.Add(new Empleados() { EmplId = 9, EmplName = "Joe", EmplLastName = "West" });
             empleados.Add(new Empleados() { EmplId = 10, EmplName = "Mayra", EmplLastName = "Martinez" });
 
+            Console.WriteLine("Lista completa. \n");
             foreach (Empleados emp in empleados)
             {
                 Console.WriteLine(emp);
@@ -36,17 +36,56 @@ namespace Asignacion337.cs
             }
             Console.ReadLine();
 
-            //int index = empleados.BinarySearch(empleados=Convert.ToString ("Joe"));
-            //if (index < 0) 
+            //creacion de la lista  para los nombres Joe e impresion de la misma con foreach
+            List<Empleados> JoeList = new List<Empleados>();
 
-            //foreach (Empleados emp in empleados)
+            foreach (Empleados emp2 in empleados)
+            {
+                if (emp2.EmplName == "Joe")
+                {
+                    JoeList.Add(emp2);
+                }
+            }
+            foreach (Empleados emp in JoeList)
+            {
+                Console.WriteLine(emp);
+            }
+            Console.ReadLine();
+            Console.WriteLine("\n");
+            
+            //creacion de la lista  para los nombres Joe e impresion de la misma con lambda
+            Console.WriteLine("Lista de nombres que se llamen Joe. \n");
+            List <Empleados> JoeList2 = empleados.Where(x => x.EmplName == "Joe").ToList(); //del lado izq empieza con la creacion de la lista JoeList2,
+                                                                                            //despues se busca (.where) en la lista empleados y entra lambda
+                                                                                            //que es [x => x.EmplName == "Joe").ToList();] x es la variable
+                                                                                            //donde se va a guardar la condicion (EmplName = a Joe)
+            JoeList2.ForEach(x => Console.WriteLine(x)); //del lado izq antes de lambda va la lista JoeList2 y el ciclo foreach luego entra lambda
+                                                         //donde se le dice q imprima lo que se guardo en "x" de la lista JoeList2
+            Console.ReadLine();
+
+            //creacion de la lista  para los Id mayor que 5 e impresion de la misma con foreach
+            //List<Empleados> idMyr = new List<Empleados>();
+
+            //foreach (Empleados emp3 in empleados)
             //{
-            //    if (empleados.Contains(emp))
-            //    { 
+            //    if (emp3.EmplId > 5)
+            //    {
+            //        idMyr.Add(emp3);
+            //        //Console.WriteLine("\nThe names with Id greater than 5 are : " + emp3.EmplName + " " + emp3.EmplLastName + " Id = "+emp3.EmplId);
             //    }
-
             //}
             //Console.ReadLine();
+
+            //creacion de la lista  para los Id mayor que 5 e impresion de la misma con lambda
+            Console.WriteLine("Lista de nombres que su Id sea mayor que 5 \n");
+            List<Empleados> idMyr = empleados.Where(emp3 => emp3.EmplId > 5).ToList(); //del lado izq empieza con la creacion de la lista idMyr,
+                                                                                       //despues se busca (.where) en la lista empleados y entra lambda
+                                                                                       //que es [emp3 => emp3.EmplId > 5).ToList();] emp3 es la variable
+                                                                                       //donde se va a guardar la condicion (EmplId mayor que 5)
+            idMyr.ForEach(emp3 => Console.WriteLine(emp3));
+            Console.ReadLine();
+
+
 
         }
     }
