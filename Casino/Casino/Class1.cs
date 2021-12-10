@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Casino
 {
-    public class Class1
+    public class Class1   //la diferencia entre una clase y una libreria es que es un grupo de clases
     {
+
     }
 }
