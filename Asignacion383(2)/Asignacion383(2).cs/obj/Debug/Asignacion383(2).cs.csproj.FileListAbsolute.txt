@@ -1,0 +1,7 @@
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\bin\Debug\Asignacion383(2).cs.exe.config
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\bin\Debug\Asignacion383(2).cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\bin\Debug\Asignacion383(2).cs.pdb
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\obj\Debug\Asignacion383(2).cs.csproj.AssemblyReference.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\obj\Debug\Asignacion383(2).cs.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\obj\Debug\Asignacion383(2).cs.exe
+C:\Users\Manuel\Documents\Tech_Academy\GitHub\Programs_C#\Asignacion383(2)\Asignacion383(2).cs\obj\Debug\Asignacion383(2).cs.pdb

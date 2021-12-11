@@ -56,22 +56,33 @@ namespace Asignacion383.cs
             //estos son los metodos sobrecargados que usaremos, tenemos 2 metodos llamados "saludar" pero ambos reciben distintas variables
             //y ambos arrojan distintos resultados
         }
-        public static string Saludar(String Saludo, String nombre)
+        //public static string Saludar(String Saludo, String nombre)
+        //{
+        //    //declaramos
+        //    string saludocompleto = "";
+        //    //sobrecarga de variable, ya la tenemos declarada y con valor asignamos, le agregamos los valores de saludo y nombre y lo retornamos
+        //    return saludocompleto += Saludo + nombre;
+        //}
+
+        public Saludar(String Saludo, String Nombre, String Frase)
         {
-            //declaramos
-            string saludocompleto = "";
-            //sobrecarga de variable, ya la tenemos declarada y con valor asignamos, le agregamos los valores de saludo y nombre y lo retornamos
-            return saludocompleto += Saludo + nombre;
+            this.nombre = Nombre;
+            this.frase = Frase;
+
+            //string saludocompleto = "";
+            ////una sobrecarga simple, le agregamos un espacio para que no se junte el nombre con la frase
+            //Nombre += "";
+            ////retornamos la frase completa mientras asignamos su valor con la suma de los mensajes
+            //return saludocompleto += Saludo + Nombre + Frase;
         }
 
-        public static string Saludar(String Saludo, String Nombre, String Frase)
+        public Saludar(): this(Saludo: "", Nombre: "", Frase: "")
         {
 
-            string saludocompleto = "";
-            //una sobrecarga simple, le agregamos un espacio para que no se junte el nombre con la frase
-            Nombre += "";
-            //retornamos la frase completa mientras asignamos su valor con la suma de los mensajes
-            return saludocompleto += Saludo + Nombre + Frase;
+        }
+        public Saludar (string nombre) : this(Saludo: " ", nombre, Frase: "" )
+        {
+
         }
     }
 }
