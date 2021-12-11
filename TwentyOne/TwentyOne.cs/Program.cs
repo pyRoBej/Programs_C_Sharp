@@ -16,6 +16,7 @@ namespace TwentyOne.cs
             //game.Players = new List<string>() { "Manuel", "David", "Mayra" };
             //game.ListPlayer();
             //Console.ReadLine();
+            Player newPlayer = new Player("Manuel");
 
             Game game = new TwentyOneGame();
             game.Players = new List<Player>();

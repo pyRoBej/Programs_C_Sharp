@@ -7,6 +7,10 @@ namespace Casino
 {
     public class Player
     {
+        //public Player(string name): this(name, 100)
+        //{
+
+        //}
         public List<Card> Hand { get; set; }
         public int Balance { get; set; }
         public string Name { get; set; }
