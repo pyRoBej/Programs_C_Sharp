@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TechAcadStudentsMVC.Models;
 
 namespace TechAcadStudentsMVC.Controllers
 {
@@ -30,15 +31,44 @@ namespace TechAcadStudentsMVC.Controllers
             return View();
         }
 
-        public ActionResult Instructor(int id=7718094)
+        public ActionResult Instructor(int id)
         {
             ViewBag.Id = id;
-            return View();
+            Instructor dayTimeInstructor = new Instructor
+            {
+                Id = 7718094,
+                FirstName = "Manuel",
+                LastName = "Bejarano"
+            };
+
+            return View(dayTimeInstructor);
         }
 
         public ActionResult Instructors()
         {
-            return View();
-        }
+            List<Instructor> instructors = new List<Instructor>
+            {
+                new Instructor
+                {
+                    Id = 1,
+                    FirstName = "Manuel",
+                    LastName = "Bejarano"
+                },
+                new Instructor
+                {
+                    Id = 2,
+                    FirstName = "Jose C",
+                    LastName = "Cruz Santiago"
+                },
+                new Instructor
+                {
+                    Id = 3,
+                    FirstName = "Karim",
+                    LastName = "Bollas"
+                }
+
+            };
+            return View(instructors);   //aqui estamos pasando nuestra lista de instructores a la vista
+        } 
     }
 }

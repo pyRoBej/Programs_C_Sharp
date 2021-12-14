@@ -1,7 +1,15 @@
-﻿
+﻿@using TechAcadStudentsMVC.Models    @* el signo @ significa que usara C#, aqui estamos agregando una declaracion de uso para que podamos referirnos a la clase del instructor sin prefijarla con TechAcadStudentsMVC.Models *@ @* en la linea 2 debajo de cualquier declaración de uso, definimos nuestro modelo '@model' significa que hay un modelo, y a continuación está su tipo de datos (una lista)*@
+@model List<Instructor>
+
 @{
-    ViewBag.Title = "Instructors";
+  ViewBag.Title = "Instructors";
 }
 
 <h2>Instructors</h2>
 
+@{
+  foreach (Instructor instructor in Model)     //despues de declarar su modelo en la parte superior con @model, puede hacer referencia a el en cualquier parte de HTML con la palabra model; como puede ver en esto, Razor puede averiguar cuando esta usando HTML, por lo que no es necesario cerrar la llave. solo asegurese de usar el signo @ nuevamente para hacer referencia a mas C#
+  {
+    <h4>@instructor.FirstName</h4>
+  }
+}
