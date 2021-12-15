@@ -25,6 +25,6 @@ namespace CarInsurance.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Insurees> Insurees { get; set; }
+        public virtual DbSet<Insuree> Insurees { get; set; }
     }
 }
