@@ -27,12 +27,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Insuree insuree = db.Insurees.Find(id);
-            if (insuree == null)
+            Insurees insurees = db.Insurees.Find(id);
+            if (insurees == null)
             {
                 return HttpNotFound();
             }
-            return View(insuree);
+            return View(insurees);
         }
 
         // GET: Insuree/Create
@@ -46,16 +46,16 @@ namespace CarInsurance.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)
         {
             if (ModelState.IsValid)
             {
-                db.Insurees.Add(insuree);
+                db.Insurees.Add(insurees);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(insuree);
+            return View(insurees);
         }
 
         // GET: Insuree/Edit/5
@@ -65,12 +65,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Insuree insuree = db.Insurees.Find(id);
-            if (insuree == null)
+            Insurees insurees = db.Insurees.Find(id);
+            if (insurees == null)
             {
                 return HttpNotFound();
             }
-            return View(insuree);
+            return View(insurees);
         }
 
         // POST: Insuree/Edit/5
@@ -78,15 +78,15 @@ namespace CarInsurance.Controllers
         // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(insuree).State = EntityState.Modified;
+                db.Entry(insurees).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(insuree);
+            return View(insurees);
         }
 
         // GET: Insuree/Delete/5
@@ -96,12 +96,12 @@ namespace CarInsurance.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Insuree insuree = db.Insurees.Find(id);
-            if (insuree == null)
+            Insurees insurees = db.Insurees.Find(id);
+            if (insurees == null)
             {
                 return HttpNotFound();
             }
-            return View(insuree);
+            return View(insurees);
         }
 
         // POST: Insuree/Delete/5
@@ -109,8 +109,8 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Insuree insuree = db.Insurees.Find(id);
-            db.Insurees.Remove(insuree);
+            Insurees insurees = db.Insurees.Find(id);
+            db.Insurees.Remove(insurees);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

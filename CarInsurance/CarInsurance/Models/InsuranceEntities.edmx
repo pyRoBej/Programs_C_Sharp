@@ -30,7 +30,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="InsuranceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Insuree">
+        <EntityType Name="Insurees">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
@@ -48,7 +48,7 @@
           <Property Name="Quote" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
         </EntityType>
         <EntityContainer Name="InsuranceEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Insurees" EntityType="Self.Insuree" />
+          <EntitySet Name="Insurees" EntityType="Self.Insurees" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
@@ -57,7 +57,7 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="InsuranceModelStoreContainer" CdmEntityContainer="InsuranceEntities">
           <EntitySetMapping Name="Insurees">
-            <EntityTypeMapping TypeName="InsuranceModel.Insuree">
+            <EntityTypeMapping TypeName="InsuranceModel.Insurees">
               <MappingFragment StoreEntitySet="Insurees">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
@@ -88,7 +88,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
