@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using CarInsurance.Models;
 
+
 namespace CarInsurance.Controllers
 {
     public class InsureeController : Controller
@@ -17,9 +18,21 @@ namespace CarInsurance.Controllers
         // GET: Insuree
         public ActionResult Index()
         {
+
+
+
+
             return View(db.Insurees.ToList());
         }
 
+        public ActionResult Admin()
+        {
+            Insurees coti = new Insurees();
+            coti.modelo = 3;
+
+
+            return View(db.Insurees);
+        }
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -42,14 +55,49 @@ namespace CarInsurance.Controllers
         }
 
         // POST: Insuree/Create
-        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
-        // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)
         {
+
             if (ModelState.IsValid)
             {
+                double month = 50;
+
+                DateTime nacimiento = insurees.DateOfBirth; //Fecha de nacimiento
+                                                            //double edad = DateTime.Today.AddTicks(-nacimiento.Ticks).Year - 1;
+
+                double Age = DateTime.Now.Year - Convert.ToInt32(insurees.DateOfBirth.Year);
+
+
+                if (Age <= 18) { month += 100; }
+                else if (19 <= Age && Age <= 25) { month += 50; }
+                else if (Age > 25) { month += 25; }
+
+
+                if (insurees.CarYear < 2000 || insurees.CarYear > 2015) { month += 25; }
+
+
+                if (insurees.CarMake == "Porsche")
+                {
+                    month += 25;
+                    if (insurees.CarModel == "911 Carrera") month += 25;
+
+
+                }
+
+                if (insurees.SpeedingTickets > 0) { month += 10 * insurees.SpeedingTickets; }
+
+                if (insurees.DUI == true) { month += month * 0.25; }
+
+                if (insurees.CoverageType == true) { month += month * 0.5; }
+
+
+                insurees.Quote = Convert.ToDecimal(month);
+
+
                 db.Insurees.Add(insurees);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -74,8 +122,8 @@ namespace CarInsurance.Controllers
         }
 
         // POST: Insuree/Edit/5
-        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
-        // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insurees insurees)

@@ -155,9 +155,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Insurance.mdf" />
-    <Content Include="App_Data\Insurance_log.ldf">
-      <DependentUpon>Insurance.mdf</DependentUpon>
-    </Content>
+    <Content Include="App_Data\Insurance.mdf_log.ldf" />
+    <Content Include="App_Data\Insurance_log.ldf" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -215,6 +214,7 @@
     <Content Include="Views\Insuree\Details.cshtml" />
     <Content Include="Views\Insuree\Edit.cshtml" />
     <Content Include="Views\Insuree\Index.cshtml" />
+    <Content Include="Views\Insuree\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
